@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Welcome to EMTS";
+}
+<h3>@ViewData["Title"]</h3>
+
+
+<h4>Events&nbsp;<img src="~/images/eventimage.png" alt="Delete" width="15" height="15" />&nbsp;</h4>&nbsp;<p>To create new event click <a>here</a></p>
+<div>
+    <table style="width:100%" border="1">
+        <tr>
+            <th>Event Name</th>
+            <th>Event Time</th>
+            <th>Event Location</th>
+            <th>Event Policy</th>
+            <th>Event Capacity</th>
+            <th>Event Description</th>
+            <th align="center" valign="middle">Edit</th>
+            <th align="center" valign="middle">Delete</th>
+        </tr>
+        <tr>
+            <td>cricket match</td>
+            <td>aaa</td>
+            <td>dublin</td>
+            <td>dublin</td>
+            <td>dublin</td>
+            <td>dublin</td>
+            <td align="center" valign="middle">
+                <a onclick="Doaction"><img src="~/images/edit.gif" alt="Edit" width="15" height="15" /></a>
+            </td>
+            <td align="center" valign="middle">
+                <a onclick="Doaction"><img src="~/images/delete.png" alt="Delete" width="15" height="15" /></a>
+            </td>
+        </tr>
+    </table>
+</div>
+<br />
+<div>
+    <h4>Users&nbsp;<img src="~/images/user.png" alt="Delete" width="15" height="15" />&nbsp;</h4>&nbsp;<p>To create new User click <a>here</a></p>
+</div>
+<div>
+    <table style="width:100%" border="1">
+        <tr>
+            <th>User Name</th>
+            <th>User Email Address</th>
+            <th>User Mobile Number</th>
+            <th>Age</th>
+            <th align="center" valign="middle">Edit</th>
+            <th align="center" valign="middle">Delete</th>
+        </tr>
+        <tr>
+            <td>cricket match</td>
+            <td>aaa</td>
+            <td>dublin</td>
+            <td>dublin</td>
+            <td align="center" valign="middle">
+                <a onclick="Doaction"><img src="~/images/edit.gif" alt="Edit" width="15" height="15" /></a>
+            </td>
+            <td align="center" valign="middle">
+                <a onclick="Doaction"><img src="~/images/delete.png" alt="Delete" width="15" height="15" /></a>
+            </td>
+        </tr>
+    </table>
+</div>
+<br/>
+<div>
+    <h4>Tickets&nbsp;<img src="~/images/ticket.png" alt="Delete" width="20" height="20" />&nbsp;</h4>&nbsp;<p>To create new Ticket click <a>here</a></p>
+</div>
+<div>
+    <table style="width:100%" border="1">
+        <tr>
+            <th>Ticket Type</th>
+            <th>Ticket Count</th>
+            <th>Ticket Price</th>
+            <th>Ticket Amount</th>
+            <th align="center" valign="middle">Edit</th>
+            <th align="center" valign="middle">Delete</th>
+        </tr>
+        <tr>
+            <td>cricket match</td>
+            <td>aaa</td>
+            <td>dublin</td>
+            <td>dublin</td>
+            <td align="center" valign="middle">
+                <a onclick="Doaction"><img src="~/images/edit.gif" alt="Edit" width="15" height="15" /></a>
+            </td>
+            <td align="center" valign="middle">
+                <a onclick="Doaction"><img src="~/images/delete.png" alt="Delete" width="15" height="15" /></a>
+            </td>
+        </tr>
+    </table>
+</div>
+<br />
+<div>
+    <h4>Sponsors&nbsp;<img src="~/images/sponsor.png" alt="Delete" width="15" height="15" />&nbsp;</h4>&nbsp;<p>To create new sponsor click <a>here</a></p>
+</div>
+<div>
+    <table style="width:100%" border="1">
+        <tr>
+            <th>Sponsor Name</th>
+            <th>Sponsor Description</th>
+            <th>Price</th>
+            <th align="center" valign="middle">Edit</th>
+            <th align="center" valign="middle">Delete</th>
+        </tr>
+        <tr>
+            <td>cricket match</td>
+            <td>aaa</td>
+            <td>dublin</td>
+            <td align="center" valign="middle">
+                <a onclick="Doaction"><img src="~/images/edit.gif" alt="Edit" width="15" height="15" /></a>
+            </td>
+            <td align="center" valign="middle">
+                <a onclick="Doaction"><img src="~/images/delete.png" alt="Delete" width="15" height="15" /></a>
+            </td>
+
+        </tr>
+    </table>
+
+</div>
+<div>
+    <asp:Label ID="lblresult" runat="server"></asp:Label>
+</div>  

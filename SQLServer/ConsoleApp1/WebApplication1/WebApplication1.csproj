@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\delete.png" />
+    <None Include="wwwroot\images\edit.gif" />
+    <None Include="wwwroot\images\editrakhi.png" />
+    <None Include="wwwroot\images\ticket.png" />
+    <None Include="wwwroot\images\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ImagesMine\" />
+  </ItemGroup>
+
+</Project>
